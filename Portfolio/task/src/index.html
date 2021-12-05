@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Anastasiia Somova Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+<header class="container">
+    <nav class="navbar">
+        <ul>
+            <li id="home-btn"><a href="index.html#home">HOME</a></li>
+            <li id="contacts-btn"><a href="#contacts">CONTACTS</a></li>
+            <li id="portfolio-btn"><a href="#portfolio">PORTOLIO</a></li>
+            <li id="about-btn"><a href="#about">ABOUT ME</a></li>
+        </ul>
+    </nav>
+    <div class="hamburger">
+        <img id="open-menu-hamburger" src="img/ham-menu-icon.jpg" alt="Menu">
+        <nav id="menu-hamburger">
+            <div><a href="#about"><p>About me</p></a></div>
+            <div><a href="#portfolio"><p>Portfolio</p></a></div>
+            <div><a href="#contacts"><p>Contacts</p></a></div>
+            <div><a href=""><p>HOME</p></a></div>
+            <span id="close-menu-hamburger"><a href="#open-menu-hamburger">Close</a></span>
+        </nav>
+    </div>
+
+</header>
+<body>
+<div id="home">
+    <h1>Evgeniy Ponomarev,<br> Front-end developer</h1>
+</div>
+<section id="about">
+    <div class="about">
+        <img alt="me" height="462" src="person.jpeg" width="346">
+        <div class="about-container">
+            <h2>About me</h2>
+            <p>Hi! I'm Evgeniy Ponomarev. I'been a junior front-end for 2 months now.</p>
+            <p>For me, programming in not just job, it's a hobby.</p>
+            <p>I'm open to new knowledge. I like to study new technologies and apply them in practice</p>
+            <p>Skills: HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+</section>
+<section id="portfolio">
+    <div class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="portfolio-links">
+            <div class="flashcards">
+                <div class="window" id="flashcards-window">
+                    <div class="display-window">
+                        <h2>Flashcards</h2>
+                        <p>You can see the project at the following link
+                            <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+                        <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                            a web page with flip-down flash cards, learned some HTML basics and<br>
+                            learned that CSS can easily make a beautiful design.</p>
+                        <button class="close-window" id="flashcards-closewindow">Close</button>
+                    </div>
+                </div>
+                <img alt="Flashcards" height="340" src="project1.png" width="500">
+                <p><button class="open-window" id="flashcards-openwindow">Flashcards</button></p>
+            </div>
+            <div class="virtual-piano">
+                <div class="window" id="piano-window">
+                    <div class="display-window">
+                        <h2>Virtual piano</h2>
+                        <p>You can see the project at the following link
+                            <a href="https://flashcard.com" title="virtual piano">virtual piano</a> </p><br>
+                        <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                            a web page with virtual piano, learned some HTML basics and<br>
+                            learned that CSS can easily make a beautiful design.</p>
+                        <button class="close-window" id="piano-closewindow">Close</button>
+                    </div>
+                </div>
+                <img alt="Virtual Piano" height="340" src="project2.png" width="500">
+                <p><button class="open-window" id="piano-openwindow">Virtual Piano</button></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts">
+    <div class="contacts">
+        <h2>CONTACTS</h2>
+        <p id="e-mail">You can contact me at <a href="mailto:evgrussia@gmail.com">evgrussia@gmail.com</a></p>
+        <p id="telefon">or phone number - <a href="tel:+79261599499">+7 926 159 9499</a></p>
+        <div class="social-media">
+            <p id="instagram"><a href="https://www.instagram.com/"><img src="instagram1.svg" height="35" width="35"></a></p>
+            <p id="facebook"><a href="https://www.facebook.com/"><img src="facebook.svg" height="35" width="35"></a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    Evgeniy Ponomarev, 2021
+</footer>
+</body>
+<script src="popup.js"></script>
+</html>
